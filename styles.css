@@ -1,0 +1,46 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    transition: 0.3s ease-in-out;
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+}
+:root{
+    --red--:#e74645;
+    --light--:#fb7756;
+    --ly--:#facd60;
+    --y--:#fdfa66;
+    --bl--:#1ac0c6;
+
+
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+
+}
+h1{
+    letter-spacing: 0.5rem;
+    font-size: 4rem;
+    color: var(--y--);
+    font-weight: bolder;
+    -webkit-text-stroke: 4px #e74645;
+}
+span{
+    font-size: 4rem;
+    padding: 2rem;
+}
+.btn{
+    font-size: 2rem;
+    margin: 1rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+
+}
+.btn:hover{
+    background-color: #4dff4d;
+}
